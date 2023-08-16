@@ -3,4 +3,6 @@ class User < ApplicationRecord
 
   has_one :profie
   has_many :posts
+  has_many :photos
+  has_many :comments
 end
